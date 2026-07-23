@@ -646,6 +646,16 @@
         line-height: 1.75;
       }
 
+      .proof-card p,
+      .proof-item p,
+      .quote-panel .proof-item p {
+        color: var(--surface-ink-soft);
+      }
+
+      .proof-item strong {
+        color: var(--surface-ink);
+      }
+
       .proof-list {
         display: grid;
         gap: 12px;
@@ -945,6 +955,21 @@
 
         h1 {
           font-size: clamp(3.2rem, 18vw, 5.4rem);
+        }
+
+        .hero-copy .eyebrow {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          margin-bottom: 14px;
+          font-size: 10px;
+          line-height: 1.2;
+          position: relative;
+          z-index: 1;
+        }
+
+        .hero-copy .eyebrow::before {
+          width: 26px;
         }
 
         .hero-lead {
