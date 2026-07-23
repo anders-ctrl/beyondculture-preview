@@ -1,0 +1,11 @@
+<svg width="520" height="140" viewBox="0 0 520 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="140" rx="30" fill="#050505"/>
+  <g transform="translate(20 20)" fill="#F5F5F7" color="#F5F5F7">
+    <circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="4"/>
+    <circle cx="50" cy="50" r="34" stroke="currentColor" stroke-opacity="0.22" stroke-width="1.5"/>
+    <path d="M31 28H53.5C63.6421 28 70.5 33.2378 70.5 42C70.5 47.9731 67.2303 52.7716 61.7838 54.8845C68.0202 56.8027 72 61.8972 72 68.5C72 78.1421 64.7375 85 53.5 85H31V28ZM43 38V50H51.5C56.4316 50 59.5 47.8388 59.5 43.5C59.5 39.1612 56.4316 38 51.5 38H43ZM43 60V74H52.5C58.1924 74 61 71.5609 61 67C61 62.4391 58.1924 60 52.5 60H43Z" fill="currentColor"/>
+    <path d="M55 37.5C58.9429 35.2752 63.5933 34 69 34C74.4067 34 79.0571 35.2752 83 37.5V47C79.6497 43.5484 75.1034 41.5 69.5 41.5C60.3873 41.5 54.5 47.6881 54.5 56.5C54.5 65.3119 60.3873 71.5 69.5 71.5C75.1034 71.5 79.6497 69.4516 83 66V75.5C79.0571 77.7248 74.4067 79 69 79C53.4639 79 42.5 69.1391 42.5 56.5C42.5 43.8609 53.4639 34 69 34C63.5933 34 58.9429 35.2752 55 37.5Z" fill="currentColor"/>
+  </g>
+  <text x="130" y="62" fill="#F5F5F7" font-family="Manrope, Arial, sans-serif" font-weight="800" font-size="34" letter-spacing="6">BEYOND CULTURE</text>
+  <text x="130" y="96" fill="rgba(245,245,247,0.72)" font-family="Manrope, Arial, sans-serif" font-weight="600" font-size="16" letter-spacing="3">CULTURE-LED HIRING AND TALENT STRATEGY</text>
+</svg>
