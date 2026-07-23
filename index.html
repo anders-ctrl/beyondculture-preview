@@ -597,6 +597,12 @@
         gap: 18px;
       }
 
+      .proof-grid {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 18px;
+      }
+
       .story-card {
         padding: 30px;
       }
@@ -626,6 +632,35 @@
       }
 
       .story-item strong {
+        font-size: 13px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .proof-card {
+        padding: 30px;
+      }
+
+      .proof-card p {
+        color: var(--ink-soft);
+        line-height: 1.75;
+      }
+
+      .proof-list {
+        display: grid;
+        gap: 12px;
+        margin-top: 22px;
+      }
+
+      .proof-item {
+        display: grid;
+        grid-template-columns: 96px 1fr;
+        gap: 16px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+      }
+
+      .proof-item strong {
         font-size: 13px;
         letter-spacing: 0.12em;
         text-transform: uppercase;
@@ -864,6 +899,7 @@
       @media (max-width: 1100px) {
         .hero-grid,
         .story-grid,
+        .proof-grid,
         .cta-panel,
         .services-grid,
         .dark-band .process-grid {
@@ -1021,7 +1057,7 @@
                 </div>
                 <div class="metric">
                   <strong>2012</strong>
-                  <span class="stat-label">Priority Recruitment founded</span>
+                  <span class="stat-label">Priority Recruitment founded. Built from solo consultancy to multi-division firm.</span>
                 </div>
                 <div class="metric">
                   <strong>2019</strong>
@@ -1075,7 +1111,7 @@
                 </div>
                 <div class="story-item">
                   <strong>Web3 native</strong>
-                  <p>Placed talent across Solana, Polkadot and Ethereum ecosystems since 2019.</p>
+                  <p>Placed engineering, marketing and executive talent across Solana, Polkadot and Ethereum since 2019.</p>
                 </div>
                 <div class="story-item">
                   <strong>Current role</strong>
@@ -1091,6 +1127,66 @@
                 Beyond Culture is for founders and operators who know hiring is a strategic
                 decision, not an admin task. The brief is not just to fill the seat. It is to
                 protect standards, momentum, and the room itself.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="proof">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-label">Proof of work</span>
+              <h2>What building a People function from scratch actually looks like.</h2>
+              <p>
+                At Raiku Labs I joined as the first People hire. No process, no data, no
+                infrastructure. Within twelve months the company had:
+              </p>
+            </div>
+          </div>
+
+          <div class="proof-grid">
+            <article class="panel proof-card fade-up">
+              <div class="proof-list">
+                <div class="proof-item">
+                  <strong>25 hires</strong>
+                  <p>Across Engineering, Marketing, Growth, Legal and Operations.</p>
+                </div>
+                <div class="proof-item">
+                  <strong>Frameworks</strong>
+                  <p>A structured performance framework now used for promotions and equity decisions.</p>
+                </div>
+                <div class="proof-item">
+                  <strong>Comp</strong>
+                  <p>Full compensation benchmarking across all roles, sitting above Web3 market P50.</p>
+                </div>
+                <div class="proof-item">
+                  <strong>SOPs</strong>
+                  <p>A People &amp; Culture Playbook, Onboarding SOP and Offboarding SOP, all operational.</p>
+                </div>
+              </div>
+            </article>
+
+            <aside class="quote-panel fade-up delay-1">
+              <span class="quote-pill">Operator-level proof</span>
+              <div class="quote">Built from zero. Run like it matters.</div>
+              <div class="proof-list">
+                <div class="proof-item">
+                  <strong>Systems</strong>
+                  <p>Personio HRIS configured from scratch, including reporting lines, payroll and leave management.</p>
+                </div>
+                <div class="proof-item">
+                  <strong>Savings</strong>
+                  <p>£82k in verifiable cost savings presented to the board.</p>
+                </div>
+                <div class="proof-item">
+                  <strong>Exits</strong>
+                  <p>Every exit managed cleanly with documentation, access revocation and consistent process.</p>
+                </div>
+              </div>
+              <p>
+                That is what operator-level People work looks like. Beyond Culture is built on it.
               </p>
             </aside>
           </div>
